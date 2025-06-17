@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 중앙을 제외한 주변에 흐림 효과를 적용하는 OverlayView -->
+    <com.example.makeright.camera_OverlayView
+        android:id="@+id/overlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 로딩시 보여줄 블러  -->
+    <com.example.makeright.Loading_View
+        android:id="@+id/loadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!-- 로딩바를 화면 중앙에 배치 -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+    <!-- 촬영 버튼을 화면 아래 중앙에 배치 -->
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/white"
+    />
+
+</RelativeLayout>
+
+

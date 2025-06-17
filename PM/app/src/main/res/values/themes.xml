@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PM" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- 앱 맨 위 배경색, 버튼 색 -->
+        <item name="colorPrimary">#697565</item>
+<!--        <item name="colorPrimary">#FFFFFF</item>-->
+<!--        <item name="colorPrimary">@color/black</item>-->
+        <!-- 앱 맨 위 글자 색 -->
+        <item name="colorPrimaryVariant">@color/white</item>
+        <!-- 버튼 글자 색 -->
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.PM" parent="Base.Theme.PM" />
+</resources>
