@@ -88,8 +88,8 @@ YOLOv8m-pose, YOLOv8m-seg 기반 전이 학습 수행
 
 📝 조호준	아이디어 기획, PPT 제작, 데이터 수집
 
-<h1>🧾 실행 예시</h1>
-https://github.com/user-attachments/assets/42abb502-2728-4472-a5fd-11d11541d974
+<h1>🧾 실행 영상</h1>
+https://drive.google.com/file/d/1F54y1osrrwJE_ik5aYxfuoyAoM6MzbH6/view?usp=drive_link
 
 
 <h1>📌 기대 효과</h1>
